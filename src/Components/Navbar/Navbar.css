@@ -1,0 +1,26 @@
+.n-wrapper {
+    height: 110px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.n-logo {
+    display: flex;
+    height: 70px;
+    margin: 20px 0px 0px 30px;
+}
+
+.n-contents {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-weight: bold; 
+}
+
+.n-contents > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem; 
+    list-style: none;
+}
